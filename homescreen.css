@@ -1,0 +1,95 @@
+#leftsection{
+    height:75vh;
+display: flex;
+    width:60vw;
+    background-color: rgb(29, 29, 65);
+    
+    color: white;
+}
+#left {
+    
+    display: flex;
+   
+  }
+  #leftcontent{
+      display:flex;
+       flex-direction: row; 
+  }
+#leftsection img{
+    height:50vh;
+    width: 17rem;
+}
+
+#cold{
+    margin-left:2rem;
+    font-size:2rem;
+}
+#follow{
+ 
+   margin-top: 2rem;
+   
+   color: silver;
+}
+#desc{
+   
+    
+  color: silver;
+
+}
+#d{
+    margin-left:-5rem;
+}
+.btn{
+    background-color:rgb(165, 55, 165);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#band{
+    display: flex;
+    flex-wrap:wrap;
+}
+#musiclist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+   
+  }
+  #musiclistleft{
+   
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color:white;
+        background-color: rgb(60, 60, 95);
+        height:10vh;
+        width:60vw;
+    
+  }
+  #musiclistleft img{
+      height:1.5rem;
+        width:2rem;
+        margin:1rem;
+
+  }
+  #heart i{
+      margin-left: 13rem;
+      
+
+  }
